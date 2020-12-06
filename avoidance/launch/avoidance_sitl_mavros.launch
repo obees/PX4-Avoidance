@@ -43,8 +43,8 @@
           args="-sdf -database $(arg model) -model $(arg vehicle)">
     </node> -->
 
-    <!--<node name="spawn_model" pkg="gazebo_ros" type="spawn_model" output="screen"
-          args="-file /home/ob/src/px4/Tools/sitl_gazebo/models/iris_depth_camera/iris_depth_camera.sdf -sdf -model iris_depth_camera">
-    </node>-->
+    <node name="spawn_model" pkg="gazebo_ros" type="spawn_model" output="screen"
+          args="-file /home/ob/github/px4/Tools/PX4-SITL_gazebo/models/iris_depth_camera/iris_depth_camera.sdf -sdf -model iris_depth_camera">
+    </node>
 
 </launch>
